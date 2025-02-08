@@ -97,7 +97,7 @@ function App() {
                 onClick={() => dispatch(toggleComplete(todo.id))}
                 className={todo.isCompleted ? "bg-green-950" : "bg-green-800"}
               >
-                {todo.isCompleted ? "Updated" : "Update"}
+                {todo.isCompleted ? "Completed" : "Complete"}
               </Button>
             </div>
           </li>
